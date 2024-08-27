@@ -1,12 +1,3 @@
-/**
-  ******************************************************************************
-  * @file    Lab-Libraries/main.c 
-  * @author  CSF Team
-  * @mail    formation@csf.tn
-  * @Tel     (+216)92.039.433
-  * @version V1.0.0
-  * @date    23-04-2024
-  *****************************************************************************/
 #include "gpio.h"      
 /* Private define ------------------------------------------------------------*/
 #define NOMBRE_BOUCLES 100
@@ -55,5 +46,3 @@ void Delay(volatile unsigned  int  nCount)
 {
   for(; nCount != 0; nCount--); 
 }
-
-/******************* (C) COPYRIGHT 22024 CSF *****END OF FILE*******************/
