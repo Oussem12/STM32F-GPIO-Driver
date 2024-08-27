@@ -1,12 +1,3 @@
-/**
-  ******************************************************************************
-  * @file    Lab-Libraries/gpio.h 
-  * @author  CSF Team
-  * @mail    formation@csf.tn
-  * @Tel     (+216)92.039.433
-  * @version V1.0.0
-  * @date    23-04-2024
-  *****************************************************************************
 
 /*Includes ------------------------------------------------------------------*/
 //les adress du GPIO : 
@@ -49,7 +40,7 @@
 
 
 /*  mode de fonctionnement : */
-#define INPUT  0x00 // Mode d'entrée 00
+#define INPUT  0x00 // Mode d'entrÃ©e 00
 #define OUTPUT 0x01 // Mode de sortie 01
 #define AN     0x02// Mode analogique 10 
 #define AF     0x03 // Mode alternatif 11
@@ -118,4 +109,3 @@ unsigned char GPIO_ReadInputDataBit(unsigned int * gpio_x, unsigned short int GP
 /* Write functions */
 void GPIO_WriteBit(unsigned int * gpio_x, unsigned short int GPIO_Pin, char BitVal);
 void GPIO_Write(unsigned int * gpio_x, unsigned short int PortVal) ; 
-/******************* (C) COPYRIGHT 2019 CSF *****END OF FILE*******************/
